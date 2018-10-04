@@ -1,3 +1,5 @@
+# Owner: Aayush
+
 global A
 def find(x,y):
 	global A
