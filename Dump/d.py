@@ -1,0 +1,12 @@
+s='785587585'
+a = int(s[1:])
+b = int(s[0]+s[2:])
+c = int(s[0:2]+s[3:])
+d = int(s[0:3]+s[4:])
+e = int(s[0:4]+s[5:])
+f = int(s[0:5]+s[6:])
+g = int(s[0:6]+s[7:])
+h = int(s[0:7]+s[8])
+i = int(s[0:8])
+z = min(a,b,c,d,e,f,g,h,i)
+print(z)

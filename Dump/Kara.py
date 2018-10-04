@@ -1,0 +1,14 @@
+x=input()
+y=input()
+x1=len(x)-1
+y1=len(y)-1
+a=max(x1,y1)
+x2=int(x[-a:])
+y2=int(y[-a:])
+x3=(int(x)-x2)//(10**a)
+y3=(int(y)-y2)//(10**a)
+z2=x3*y3
+z0=x2*y2
+z1=(x3+x2)*(y3+y2)-z2-z0
+ans=(z2*(10**(2*a)))+(z1*(10**a))+z0
+print(ans)
